@@ -3,7 +3,7 @@ import {Link, animateScroll as scroll} from 'react-scroll';
 
 export default function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-md navbar-light fixed-top-py-4">
+		<nav className="navbar navbar-expand-md navbar-light fixed-top py-4">
 			<div className="container">
 				<Link onClick={() => {
 					scroll.scrollToTop();
@@ -17,16 +17,16 @@ export default function Navbar() {
 				<div className="collapse navbar-collapse" id="navbarCollapse">
 					<ul className="navbar-nav ml-auto">
 						<li className="nav-item">
-							<Link to="#home" className="nav-link">Home</Link>
+							<Link to="home" smooth={true} spy={true} duration={1000} className="nav-link">Home</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="#about" className="nav-link">About</Link>
+							<Link to="about" smooth={true} spy={true} duration={1000} className="nav-link">About</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="#authors" className="nav-link">Meet The Authors</Link>
+							<Link to="authors" smooth={true} spy={true} duration={1000} className="nav-link">Meet The Authors</Link>
 						</li>
 						<li className="nav-item">
-							<Link to="#contact" className="nav-link">Contact</Link>
+							<Link to="contact" smooth={true} spy={true} duration={1000} className="nav-link">Contact</Link>
 						</li>
 					</ul>
 				</div>

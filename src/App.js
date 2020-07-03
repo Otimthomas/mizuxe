@@ -7,6 +7,7 @@ import Boxes from './components/Boxes';
 import About from './components/About';
 import Authors from './components/Authors';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Authors />
       <Contact />
+      <Footer />
     </>
   );
 }
