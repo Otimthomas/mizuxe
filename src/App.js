@@ -5,6 +5,7 @@ import ShowCase from './components/ShowCase';
 import NewsLetter from './components/NewsLetter';
 import Boxes from './components/Boxes';
 import About from './components/About';
+import Authors from './components/Authors';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NewsLetter />
       <Boxes />
       <About />
+      <Authors />
     </>
   );
 }
