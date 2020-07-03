@@ -6,6 +6,7 @@ import NewsLetter from './components/NewsLetter';
 import Boxes from './components/Boxes';
 import About from './components/About';
 import Authors from './components/Authors';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Boxes />
       <About />
       <Authors />
+      <Contact />
     </>
   );
 }
